@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StuTrack by Vedaira</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+
+    body {
+        font-family: 'Segoe UI', sans-serif;
+        line-height: 1.6;
+        color: #222;
+        background: #f9f9f9;
+    }
+
+    header.hero {
+        background: linear-gradient(120deg, #5d67ff, #9d6dfc);
+        color: white;
+        text-align: center;
+        padding: 80px 20px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        margin-bottom: 0.3em;
+    }
+
+    .btn {
+        background: white;
+        color: #5d67ff;
+        padding: 12px 24px;
+        text-decoration: none;
+        border-radius: 30px;
+        font-weight: bold;
+        transition: background 0.3s;
+    }
+
+    .btn:hover {
+        background: #ddd;
+    }
+
+    .container {
+        max-width: 960px;
+        margin: auto;
+    }
+
+    .features,
+    .screenshots,
+    .testimonials,
+    .cta {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .features h2,
+    .screenshots h2,
+    .testimonials h2,
+    .cta h2 {
+        font-size: 2.2em;
+        margin-bottom: 30px;
+    }
+
+    .feature-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .feature {
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        width: 280px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        transition: transform 0.3s;
+    }
+
+    .feature:hover {
+        transform: scale(1.05);
+    }
+
+    .img-gallery {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .img-gallery img {
+        border-radius: 20px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        width: 200px;
+        transition: transform 0.3s;
+    }
+
+    .img-gallery img:hover {
+        transform: scale(1.05);
+    }
+
+    .testimonial-list {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .testimonial {
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .testimonial h4 {
+        margin-top: 10px;
+        color: #555;
+    }
+
+    .cta {
+        background: #5d67ff;
+        color: white;
+        border-radius: 30px;
+        margin: 0 10%;
+    }
+
+    .cta .btn {
+        margin-top: 20px;
+        background: white;
+        color: #5d67ff;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #eee;
+        font-size: 0.9em;
+    }
+</style>
+
+<body>
+
+    <header class="hero">
+        <div class="container">
+            <img src="Logo.jpg" alt="StuTrack Logo" style="width: 150px; margin-bottom: 20px;" />
+            <h1>StuTrack by Vedaira</h1>
+            <p>Your study partner. Track time, stay motivated, grow smarter together.</p> <br>
+            <a href="#" class="btn">Download Now</a>
+        </div>
+    </header>
+
+    <section class="features">
+        <h2>Why StuTrack?</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <h3>⏱️ Track Study Hours</h3>
+                <p>Record your focused hours and analyze your performance.</p>
+            </div>
+            <div class="feature">
+                <h3>🤝 Connect with Peers</h3>
+                <p>Share progress with self-studiers like you. No distractions.</p>
+            </div>
+            <div class="feature">
+                <h3>📈 Progress Charts</h3>
+                <p>Visualize your study journey. See your growth clearly.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="screenshots">
+        <h2>App Preview</h2>
+        <div class="img-gallery">
+            <img src="1.jpg" alt="App Screenshot 1" />
+            <img src="2.jpg" alt="App Screenshot 2" />
+            <img src="3.jpg" alt="App Screenshot 3" />
+            <img src="4.jpg" alt="App Screenshot 4" />
+            <img src="5.jpg" alt="App Screenshot 5" />
+            <img src="6.jpg" alt="App Screenshot 6" />
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Users Say</h2>
+        <div class="testimonial-list">
+            <div class="testimonial">
+                <p>"StuTrack helped me stay on track and focus on my goals. Amazing app!"</p>
+                <h4>— Ananya, NEET Aspirant</h4>
+            </div>
+            <div class="testimonial">
+                <p>"The peer study tracking idea is genius. I feel more productive."</p>
+                <h4>— Rahul, JEE Student</h4>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Start Your Focus Journey Now</h2>
+        <a href="#" class="btn">Get the App</a>
+    </section>
+
+    <footer>
+        <p>© 2025 StuTrack by Vedaira. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
